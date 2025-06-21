@@ -46,7 +46,12 @@
 | Visuals & Charts  | Matplotlib, PIL, OpenCV                      |
 | Others            | Regex, Transformers, Google API Client       |
 
----
+## 🖼️ Demo
+
+[🎬 Click here to watch the demo](https://drive.google.com/file/d/1j-qdDOC5wKPt-4-1PcBROixS_gI5MNgo/view?resourcekey)
+
+> This short walkthrough demonstrates how **SyncPixel** analyzes an image and recommends mood-matching music using AI and YouTube.
+
 
 ## 🚀 Getting Started
 
