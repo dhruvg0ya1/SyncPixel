@@ -1,14 +1,14 @@
-# Minimal requirements that should work with Python 3.13
-streamlit>=1.28.0
-Pillow>=9.5.0
-opencv-python-headless>=4.8.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-requests>=2.31.0
-transformers>=4.30.0
-google-api-python-client>=2.88.0
-protobuf>=3.19.0
-tensorflow>=2.12.0,<2.16.0
-deepface>=0.0.90
-torch>=2.0.0
-pandas>=1.5.0
+streamlit
+Pillow
+opencv-python-headless
+numpy
+matplotlib
+requests
+google-api-python-client
+protobuf
+tensorflow-cpu
+pandas
+gdown
+deepface
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
