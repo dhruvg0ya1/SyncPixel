@@ -3,11 +3,12 @@ streamlit>=1.28.0
 
 # Image processing and computer vision
 Pillow>=9.5.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 numpy>=1.24.0
 
-# Face analysis and emotion detection
+# Face analysis and emotion detection (using CPU-only version for better compatibility)
 deepface>=0.0.79
+tf-keras>=2.13.0
 
 # Data visualization
 matplotlib>=3.7.0
@@ -22,10 +23,8 @@ torch>=2.0.0
 # Google API client for YouTube integration
 google-api-python-client>=2.88.0
 
-# Additional dependencies that might be needed by the above packages
+# Additional dependencies
 scipy>=1.10.0
-scikit-learn>=1.3.0
-tensorflow>=2.13.0
 
 # For handling various image formats and processing
 imageio>=2.31.0
