@@ -1,36 +1,11 @@
-# Core Streamlit framework
+# Minimal requirements that should work with Python 3.13
 streamlit>=1.28.0
-
-# Image processing and computer vision
 Pillow>=9.5.0
 opencv-python-headless>=4.8.0
 numpy>=1.24.0
-
-# Face analysis and emotion detection (using CPU-only version for better compatibility)
-deepface>=0.0.79
-tf-keras>=2.13.0
-
-# Data visualization
 matplotlib>=3.7.0
-
-# HTTP requests
 requests>=2.31.0
-
-# Machine learning and transformers
 transformers>=4.30.0
 torch>=2.0.0
-
-# Google API client for YouTube integration
 google-api-python-client>=2.88.0
-
-# Additional dependencies
-scipy>=1.10.0
-
-# For handling various image formats and processing
-imageio>=2.31.0
-
-# For better performance with transformers
-accelerate>=0.20.0
-
-# Additional utilities
 protobuf>=3.19.0
