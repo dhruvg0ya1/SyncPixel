@@ -9,4 +9,4 @@ transformers>=4.30.0
 torch>=2.0.0
 google-api-python-client>=2.88.0
 protobuf>=3.19.0
-deepface>=0.0.79
+deepface==0.0.90
