@@ -5,8 +5,10 @@ matplotlib
 requests
 google-generativeai
 deepface
-transformers
+transformers==4.38.2
 torch==2.1.0
 torchvision==0.16.0
 tf-keras
 opencv-python-headless
+accelerate
+sentencepiece
