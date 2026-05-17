@@ -97,8 +97,8 @@ h1,h2,h3,h4 {font-family:'Syne',sans-serif;}
 # ── BLIP ──────────────────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading BLIP model…")
 def _blip():
-    proc  = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
-    model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
+    proc  = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+    model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
     model.eval()
     return proc, model
 
