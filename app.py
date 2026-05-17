@@ -15,6 +15,10 @@ from deepface import DeepFace
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import torch
 
+GEMINI_API_KEY       = st.secrets["GEMINI_API_KEY"]
+SPOTIFY_CLIENT_ID    = st.secrets["SPOTIFY_CLIENT_ID"]
+SPOTIFY_CLIENT_SECRET = st.secrets["SPOTIFY_CLIENT_SECRET"]
+
 st.set_page_config(
     page_title="SyncPixel",
     page_icon="🎵",
