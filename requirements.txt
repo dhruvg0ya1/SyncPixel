@@ -1,13 +1,13 @@
 streamlit
 Pillow
-numpy
+numpy==1.26.4
 matplotlib
 requests
 google-generativeai
 deepface
-transformers==4.38.2
-torch==2.1.0
-torchvision==0.16.0
+transformers==4.37.2
+torch==2.2.2
+torchvision==0.17.2
 tf-keras
 opencv-python-headless
 accelerate
