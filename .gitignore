@@ -1,5 +1,11 @@
+.env
+.env.local
+*.env
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.py[cod]
+.ipynb_checkpoints/
+*.log
 .streamlit/secrets.toml
-.env

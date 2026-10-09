@@ -12,3 +12,4 @@ tf-keras
 opencv-python-headless
 accelerate
 sentencepiece
+python-dotenv>=1.0.1
