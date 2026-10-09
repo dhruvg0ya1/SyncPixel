@@ -117,3 +117,12 @@ Secrets are read through `st.secrets` and are never committed.
 ## License
 
 MIT
+
+
+## Interface Screenshots
+
+![SyncPixel UI](./screenshots/01_photo_to_spotify_playlist_generator.png)
+
+## Video Walkthrough
+
+A full 1080p Loom-style product walkthrough is available at [`videos/loom_demo_walkthrough.mp4`](./videos/loom_demo_walkthrough.mp4).
